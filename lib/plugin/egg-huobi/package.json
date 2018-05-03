@@ -1,0 +1,17 @@
+{
+  "eggPlugin": {
+    "name": "huobi",
+    "env": [
+      "local",
+      "test",
+      "unittest",
+      "prod",
+      "dev"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "crypto-js": "^3.1.9-1",
+    "request": "^2.85.0"
+  }
+}

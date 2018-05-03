@@ -1,0 +1,12 @@
+{
+    "eggPlugin": {
+        "name": "okex",
+        "env": [
+            "local",
+            "test",
+            "unittest",
+            "prod",
+            "dev"
+        ]
+    }
+}

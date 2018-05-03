@@ -1,0 +1,12 @@
+{
+    "eggPlugin": {
+        "name": "ZB",
+        "env": [
+            "local",
+            "test",
+            "unittest",
+            "prod",
+            "dev"
+        ]
+    }
+}

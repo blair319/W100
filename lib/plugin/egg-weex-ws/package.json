@@ -1,0 +1,16 @@
+{
+  "eggPlugin": {
+    "name": "weex_ws",
+    "env": [
+      "local",
+      "test",
+      "unittest",
+      "prod",
+      "dev"
+    ]
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "ws": "^5.1.1"
+  }
+}
