@@ -13,8 +13,8 @@ module.exports = appInfo => {
   // 加载 errorHandler 中间件
   config.middleware = ['errorHandler'];
 
-    // use for cookie sign key, should change to your own and keep security
-    config.keys = appInfo.name + '_1524152383762_782';
+  // use for cookie sign key, should change to your own and keep security
+  config.keys = appInfo.name + '_1524152383762_782';
 
   // add your config here
   // config.middleware = [];
@@ -22,7 +22,11 @@ module.exports = appInfo => {
 
   config.wsurl = "ws://ws.weexpro.com";
 
-
+  config.tg = {
+    client: {
+      enable: false,
+    }
+  };
   return config;
 };
 

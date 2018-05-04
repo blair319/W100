@@ -37,3 +37,8 @@ exports.ZB = {
     enable: true,
     path: path.join(__dirname, '../lib/plugin/egg-ZB'),
 };
+
+exports.tg = {
+    enable: true,
+    path: path.join(__dirname, '../lib/plugin/egg-tg'),
+};
