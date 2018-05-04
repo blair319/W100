@@ -6,9 +6,6 @@ module.exports = {
     async task(ctx) {
         ctx.weex_ws_buildKline(1);
         ctx.weex_http.setRate(ctx);
-        ctx.app.tg.resetUserInfo(()=>{
-            console.log("tg end");
-          });
     },
     resetOtherInfo() {
         ctx.bian.reset24hr(ctx.helper.getMarkets()["USD"], function () {

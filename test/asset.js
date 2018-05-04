@@ -14,7 +14,7 @@ const options = {
     method: 'GET',
     headers: {
         ver: "V1.1.1",
-        token: "0A36E1A5934C46D8A3C1DE58FFB1EB77",
+        token: "52FC7A3586734FC2A9B1B2AD684604BC",
         uid: 1,
         source: "ios"
 

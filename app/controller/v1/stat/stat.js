@@ -14,7 +14,7 @@ class StatController extends Controller {
             event_type:{type: 'string'},
             event_info:{type: 'object'},
         });
-
+        service.stat.buildStatData(ctx.arg);
         ctx.body = {
             code: 0,
             message: "OK",

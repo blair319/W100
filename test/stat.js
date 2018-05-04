@@ -5,16 +5,16 @@
 
 const https = require('http');
 var postData=JSON.stringify({
-    event_type: "event_type",
+    event_type: "signup",
     event_info: {
-        test: "test"
+        signup_type: "mobile"
     }
 })
 const options = {
-    hostname: '222.73.56.202',
-    port: 7001,
-    // hostname: '127.0.0.1',
-    // port: 59427,
+    // hostname: '222.73.56.202',
+    // port: 7001,
+    hostname: '127.0.0.1',
+    port: 51938,
     path: '/v1/stat',
     method: 'POST',
     headers: {

@@ -6,8 +6,10 @@
   "dependencies": {
     "async": "^2.6.0",
     "egg": "^2.2.1",
+    "egg-redis": "^2.0.0",
     "egg-scripts": "^2.5.0",
-    "egg-validate": "^1.0.0"
+    "egg-validate": "^1.0.0",
+    "moment": "^2.22.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
