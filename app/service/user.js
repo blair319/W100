@@ -5,14 +5,14 @@ class UserService extends Service {
     async getUserAsset(token) {
         const { ctx, service, app } = this;
         //获取用户资产
-        var userAsset = await ctx.weex_http.getUserAsset(this, token);
+        var userAsset = await app.weexHttps.getUserAsset(this, token);
         if (userAsset.code != 0) {
             return userAsset;
         }
         //获取当天0点的值
-        var kline0 = ctx.weex_ws_get0Kline()["USD"];
+        var kline0 = app.weexWs.get0Kline()["USD"];
         //获取当前汇率
-        var rate = ctx.weex_http.getRate();
+        var rate = app.weexHttps.getRate();
 
         var total = 0;
         var marketsKey = Object.keys(userAsset.data.markets);

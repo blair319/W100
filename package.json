@@ -7,8 +7,10 @@
     "async": "^2.6.0",
     "egg": "^2.2.1",
     "egg-redis": "^2.0.0",
-    "egg-scripts": "^2.5.0",
+    "egg-scripts": "^2.6.0",
     "egg-validate": "^1.0.0",
+    "egg-weex-https": "^1.0.1",
+    "egg-weex-ws": "^1.0.3",
     "moment": "^2.22.1"
   },
   "devDependencies": {
@@ -25,7 +27,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-W100",
+    "start": "egg-scripts start --port=1859 --daemon --title=egg-server-W100",
     "stop": "egg-scripts stop --title=egg-server-W100",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",

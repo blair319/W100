@@ -9,10 +9,10 @@ var postData=JSON.stringify({
     screen: "1000*200"
 })
 const options = {
-    // hostname: '222.73.56.202',
-    hostname: '127.0.0.1',
-    port: 51938,
-    // port: 7001,
+    hostname: '222.73.56.202',
+    // hostname: '127.0.0.1',
+    // port: 51938,
+    port: 7001,
     path: '/v1/aid/config/banner',
     method: 'GET',
     headers: {
